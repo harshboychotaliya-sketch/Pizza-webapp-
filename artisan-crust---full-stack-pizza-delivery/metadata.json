@@ -1,0 +1,6 @@
+{
+  "name": "Artisan Crust - Full-Stack Pizza Delivery",
+  "description": "Full-stack artisanal pizza delivery platform with interactive custom pizza builder, real-time inventory management, Razorpay payment verification, and order tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

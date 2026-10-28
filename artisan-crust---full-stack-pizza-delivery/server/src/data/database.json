@@ -1,0 +1,597 @@
+{
+  "users": [
+    {
+      "_id": "usr_1793180253193_ojgg5",
+      "id": "usr_1793180253193_ojgg5",
+      "name": "Head Chef & Admin",
+      "email": "admin@artisancrust.com",
+      "password": "$2b$10$Sm6Lm46hZQ4XquxHtCtzw.46Ko8jPabBPM9ANuMXGwD5yw1ZZd0BC",
+      "role": "admin",
+      "isVerified": true,
+      "verificationToken": null,
+      "verificationTokenExpires": null,
+      "resetPasswordToken": null,
+      "resetPasswordExpires": null,
+      "createdAt": "2026-10-28T09:37:33.193Z",
+      "updatedAt": "2026-10-28T09:37:33.193Z"
+    },
+    {
+      "_id": "usr_1793180253194_0i1il",
+      "id": "usr_1793180253194_0i1il",
+      "name": "Harsh Chotaliya",
+      "email": "customer@example.com",
+      "password": "$2b$10$BQSTnoyBRmswvaWr7kkHneqJ1KhwQpkwOypUgTBdJ/PhYhihnYyxq",
+      "role": "customer",
+      "isVerified": true,
+      "verificationToken": null,
+      "verificationTokenExpires": null,
+      "resetPasswordToken": null,
+      "resetPasswordExpires": null,
+      "createdAt": "2026-10-28T09:37:33.194Z",
+      "updatedAt": "2026-10-28T09:37:33.194Z"
+    },
+    {
+      "_id": "usr_1793182262787_zt3in",
+      "id": "usr_1793182262787_zt3in",
+      "name": "Harsh Chotaliya",
+      "email": "chotaliyaharshstudy@gmail.com",
+      "password": "$2b$10$BIo.Yg1Nnxj/8dgKm5xbRuOUR/TXuSnLTD.81f1RXLThbJP5/N0KG",
+      "role": "customer",
+      "isVerified": true,
+      "verificationToken": null,
+      "verificationTokenExpires": null,
+      "resetPasswordToken": null,
+      "resetPasswordExpires": null,
+      "createdAt": "2026-10-28T10:11:02.787Z",
+      "updatedAt": "2026-10-28T10:11:02.787Z"
+    }
+  ],
+  "ingredients": [
+    {
+      "_id": "ing_1793180253194_870sr",
+      "id": "ing_1793180253194_870sr",
+      "name": "Thin Crust Sourdough",
+      "category": "base",
+      "price": 140,
+      "quantity": 49,
+      "lowStockThreshold": 10,
+      "description": "48-hour fermented rustic sourdough with crisp charred edges",
+      "isAvailable": true,
+      "lastAlertSentAt": null,
+      "createdAt": "2026-10-28T09:37:33.194Z",
+      "updatedAt": "2026-10-28T10:37:43.330Z"
+    },
+    {
+      "_id": "ing_1793180253195_phuy6",
+      "id": "ing_1793180253195_phuy6",
+      "name": "Neapolitan Hand-Tossed",
+      "category": "base",
+      "price": 160,
+      "quantity": 45,
+      "lowStockThreshold": 10,
+      "description": "Classic airy Italian crust with soft blistered cornicione",
+      "isAvailable": true,
+      "lastAlertSentAt": null,
+      "createdAt": "2026-10-28T09:37:33.195Z",
+      "updatedAt": "2026-10-28T09:37:33.195Z"
+    },
+    {
+      "_id": "ing_1793180253195_308uq",
+      "id": "ing_1793180253195_308uq",
+      "name": "Deep Dish Chicago Style",
+      "category": "base",
+      "price": 190,
+      "quantity": 30,
+      "lowStockThreshold": 8,
+      "description": "Golden buttered high-walled buttery cornmeal dough",
+      "isAvailable": true,
+      "lastAlertSentAt": null,
+      "createdAt": "2026-10-28T09:37:33.195Z",
+      "updatedAt": "2026-10-28T09:37:33.195Z"
+    },
+    {
+      "_id": "ing_1793180253195_5usq1",
+      "id": "ing_1793180253195_5usq1",
+      "name": "Gluten-Free Cauliflower",
+      "category": "base",
+      "price": 210,
+      "quantity": 25,
+      "lowStockThreshold": 8,
+      "description": "Crisp artisan grain-free crust made with roast cauliflower and herbs",
+      "isAvailable": true,
+      "lastAlertSentAt": null,
+      "createdAt": "2026-10-28T09:37:33.195Z",
+      "updatedAt": "2026-10-28T09:37:33.195Z"
+    },
+    {
+      "_id": "ing_1793180253195_yzy19",
+      "id": "ing_1793180253195_yzy19",
+      "name": "Stuffed Garlic Herb Crust",
+      "category": "base",
+      "price": 220,
+      "quantity": 6,
+      "lowStockThreshold": 10,
+      "description": "Crust pocket stuffed with roasted garlic butter and aged mozzarella",
+      "isAvailable": true,
+      "lastAlertSentAt": "2026-10-28T10:00:00.004Z",
+      "createdAt": "2026-10-28T09:37:33.195Z",
+      "updatedAt": "2026-10-28T10:00:00.006Z"
+    },
+    {
+      "_id": "ing_1793180253195_i414c",
+      "id": "ing_1793180253195_i414c",
+      "name": "San Marzano Tomato",
+      "category": "sauce",
+      "price": 60,
+      "quantity": 59,
+      "lowStockThreshold": 12,
+      "description": "Sun-drenched D.O.P. Italian plum tomatoes, sea salt and fresh oregano",
+      "isAvailable": true,
+      "lastAlertSentAt": null,
+      "createdAt": "2026-10-28T09:37:33.195Z",
+      "updatedAt": "2026-10-28T10:37:43.330Z"
+    },
+    {
+      "_id": "ing_1793180253196_2mxp9",
+      "id": "ing_1793180253196_2mxp9",
+      "name": "Creamy Garlic Alfredo",
+      "category": "sauce",
+      "price": 80,
+      "quantity": 40,
+      "lowStockThreshold": 10,
+      "description": "Slow-simmered heavy cream, roast garlic cloves, and parmigiano",
+      "isAvailable": true,
+      "lastAlertSentAt": null,
+      "createdAt": "2026-10-28T09:37:33.196Z",
+      "updatedAt": "2026-10-28T09:37:33.196Z"
+    },
+    {
+      "_id": "ing_1793180253196_xjpd1",
+      "id": "ing_1793180253196_xjpd1",
+      "name": "Spicy Arrabbiata",
+      "category": "sauce",
+      "price": 70,
+      "quantity": 35,
+      "lowStockThreshold": 10,
+      "description": "Fiery Calabrian chili-infused San Marzano reduction",
+      "isAvailable": true,
+      "lastAlertSentAt": null,
+      "createdAt": "2026-10-28T09:37:33.196Z",
+      "updatedAt": "2026-10-28T09:37:33.196Z"
+    },
+    {
+      "_id": "ing_1793180253196_lwjgi",
+      "id": "ing_1793180253196_lwjgi",
+      "name": "Basil Pesto Verde",
+      "category": "sauce",
+      "price": 90,
+      "quantity": 30,
+      "lowStockThreshold": 8,
+      "description": "Fresh pine nuts, sweet basil leaves, pecorino, and extra virgin olive oil",
+      "isAvailable": true,
+      "lastAlertSentAt": null,
+      "createdAt": "2026-10-28T09:37:33.196Z",
+      "updatedAt": "2026-10-28T09:37:33.196Z"
+    },
+    {
+      "_id": "ing_1793180253196_84q2x",
+      "id": "ing_1793180253196_84q2x",
+      "name": "Smoky BBQ Marinara",
+      "category": "sauce",
+      "price": 75,
+      "quantity": 7,
+      "lowStockThreshold": 10,
+      "description": "Woodsmoke-infused sweet tomato glaze with cracked black pepper",
+      "isAvailable": true,
+      "lastAlertSentAt": "2026-10-28T10:00:00.004Z",
+      "createdAt": "2026-10-28T09:37:33.196Z",
+      "updatedAt": "2026-10-28T10:00:00.006Z"
+    },
+    {
+      "_id": "ing_1793180253196_23e9j",
+      "id": "ing_1793180253196_23e9j",
+      "name": "Fior di Latte Mozzarella",
+      "category": "cheese",
+      "price": 90,
+      "quantity": 64,
+      "lowStockThreshold": 15,
+      "description": "Creamy artisanal cow milk mozzarella that stretches effortlessly",
+      "isAvailable": true,
+      "lastAlertSentAt": null,
+      "createdAt": "2026-10-28T09:37:33.196Z",
+      "updatedAt": "2026-10-28T10:37:43.330Z"
+    },
+    {
+      "_id": "ing_1793180253197_41rka",
+      "id": "ing_1793180253197_41rka",
+      "name": "Aged English Cheddar",
+      "category": "cheese",
+      "price": 110,
+      "quantity": 40,
+      "lowStockThreshold": 10,
+      "description": "Sharp, 18-month matured cheddar with nutty savory complexity",
+      "isAvailable": true,
+      "lastAlertSentAt": null,
+      "createdAt": "2026-10-28T09:37:33.197Z",
+      "updatedAt": "2026-10-28T09:37:33.197Z"
+    },
+    {
+      "_id": "ing_1793180253197_rn1yo",
+      "id": "ing_1793180253197_rn1yo",
+      "name": "Creamy Gorgonzola Dolce",
+      "category": "cheese",
+      "price": 130,
+      "quantity": 25,
+      "lowStockThreshold": 8,
+      "description": "Mild Italian blue cheese offering rich earthy creaminess",
+      "isAvailable": true,
+      "lastAlertSentAt": null,
+      "createdAt": "2026-10-28T09:37:33.197Z",
+      "updatedAt": "2026-10-28T09:37:33.197Z"
+    },
+    {
+      "_id": "ing_1793180253197_xywnl",
+      "id": "ing_1793180253197_xywnl",
+      "name": "Fresh Whipped Ricotta",
+      "category": "cheese",
+      "price": 100,
+      "quantity": 35,
+      "lowStockThreshold": 10,
+      "description": "Delicate curd ricotta with lemon zest and cracked pepper",
+      "isAvailable": true,
+      "lastAlertSentAt": null,
+      "createdAt": "2026-10-28T09:37:33.197Z",
+      "updatedAt": "2026-10-28T09:37:33.197Z"
+    },
+    {
+      "_id": "ing_1793180253197_dslv6",
+      "id": "ing_1793180253197_dslv6",
+      "name": "Smoked Provolone",
+      "category": "cheese",
+      "price": 120,
+      "quantity": 28,
+      "lowStockThreshold": 8,
+      "description": "Naturally applewood-smoked semi-hard cheese with deep depth",
+      "isAvailable": true,
+      "lastAlertSentAt": null,
+      "createdAt": "2026-10-28T09:37:33.197Z",
+      "updatedAt": "2026-10-28T09:37:33.197Z"
+    },
+    {
+      "_id": "ing_1793180253197_qqiy6",
+      "id": "ing_1793180253197_qqiy6",
+      "name": "Vegan Cashew Cheese",
+      "category": "cheese",
+      "price": 140,
+      "quantity": 8,
+      "lowStockThreshold": 10,
+      "description": "Plant-based cultured artisan cashew cheese with golden melt",
+      "isAvailable": true,
+      "lastAlertSentAt": "2026-10-28T10:00:00.004Z",
+      "createdAt": "2026-10-28T09:37:33.197Z",
+      "updatedAt": "2026-10-28T10:00:00.007Z"
+    },
+    {
+      "_id": "ing_1793180253198_4y5e0",
+      "id": "ing_1793180253198_4y5e0",
+      "name": "Fresh Genovese Basil",
+      "category": "veggie",
+      "price": 35,
+      "quantity": 75,
+      "lowStockThreshold": 15,
+      "description": "Picked daily sweet aromatic Italian basil leaves",
+      "isAvailable": true,
+      "lastAlertSentAt": null,
+      "createdAt": "2026-10-28T09:37:33.198Z",
+      "updatedAt": "2026-10-28T09:37:33.198Z"
+    },
+    {
+      "_id": "ing_1793180253198_vp65d",
+      "id": "ing_1793180253198_vp65d",
+      "name": "Charred Bell Peppers",
+      "category": "veggie",
+      "price": 45,
+      "quantity": 50,
+      "lowStockThreshold": 10,
+      "description": "Fire-roasted sweet red and yellow bell pepper strips",
+      "isAvailable": true,
+      "lastAlertSentAt": null,
+      "createdAt": "2026-10-28T09:37:33.198Z",
+      "updatedAt": "2026-10-28T09:37:33.198Z"
+    },
+    {
+      "_id": "ing_1793180253198_0nj25",
+      "id": "ing_1793180253198_0nj25",
+      "name": "Caramelized Sweet Onions",
+      "category": "veggie",
+      "price": 40,
+      "quantity": 45,
+      "lowStockThreshold": 10,
+      "description": "Balsamic-glazed slow cooked Vidalia onions",
+      "isAvailable": true,
+      "lastAlertSentAt": null,
+      "createdAt": "2026-10-28T09:37:33.198Z",
+      "updatedAt": "2026-10-28T09:37:33.198Z"
+    },
+    {
+      "_id": "ing_1793180253198_4uuiq",
+      "id": "ing_1793180253198_4uuiq",
+      "name": "Kalamata Black Olives",
+      "category": "veggie",
+      "price": 55,
+      "quantity": 40,
+      "lowStockThreshold": 10,
+      "description": "Plump pitted sun-cured Greek Kalamata olives",
+      "isAvailable": true,
+      "lastAlertSentAt": null,
+      "createdAt": "2026-10-28T09:37:33.198Z",
+      "updatedAt": "2026-10-28T09:37:33.198Z"
+    },
+    {
+      "_id": "ing_1793180253199_6bvx4",
+      "id": "ing_1793180253199_6bvx4",
+      "name": "Sun-Ripened Cherry Tomatoes",
+      "category": "veggie",
+      "price": 45,
+      "quantity": 55,
+      "lowStockThreshold": 12,
+      "description": "Blistered sweet cherry tomatoes seasoned with sea salt",
+      "isAvailable": true,
+      "lastAlertSentAt": null,
+      "createdAt": "2026-10-28T09:37:33.199Z",
+      "updatedAt": "2026-10-28T09:37:33.199Z"
+    },
+    {
+      "_id": "ing_1793180253199_h6iil",
+      "id": "ing_1793180253199_h6iil",
+      "name": "Wild Porcini Mushrooms",
+      "category": "veggie",
+      "price": 70,
+      "quantity": 30,
+      "lowStockThreshold": 8,
+      "description": "Pan-seared forest porcini and cremini with fresh thyme",
+      "isAvailable": true,
+      "lastAlertSentAt": null,
+      "createdAt": "2026-10-28T09:37:33.199Z",
+      "updatedAt": "2026-10-28T09:37:33.199Z"
+    },
+    {
+      "_id": "ing_1793180253199_88w99",
+      "id": "ing_1793180253199_88w99",
+      "name": "Pickled Jalapeños",
+      "category": "veggie",
+      "price": 40,
+      "quantity": 40,
+      "lowStockThreshold": 10,
+      "description": "House-cured tangy chili slices with crisp bite",
+      "isAvailable": true,
+      "lastAlertSentAt": null,
+      "createdAt": "2026-10-28T09:37:33.199Z",
+      "updatedAt": "2026-10-28T09:37:33.199Z"
+    },
+    {
+      "_id": "ing_1793180253199_8ha3x",
+      "id": "ing_1793180253199_8ha3x",
+      "name": "Confit Garlic Cloves",
+      "category": "veggie",
+      "price": 45,
+      "quantity": 35,
+      "lowStockThreshold": 10,
+      "description": "Slow-poached whole garlic cloves in rosemary olive oil",
+      "isAvailable": true,
+      "lastAlertSentAt": null,
+      "createdAt": "2026-10-28T09:37:33.199Z",
+      "updatedAt": "2026-10-28T09:37:33.199Z"
+    },
+    {
+      "_id": "ing_1793180253199_iaimv",
+      "id": "ing_1793180253199_iaimv",
+      "name": "Baby Spinach Leaves",
+      "category": "veggie",
+      "price": 35,
+      "quantity": 40,
+      "lowStockThreshold": 10,
+      "description": "Tender organic spinach leaves wilted on the stone hearth",
+      "isAvailable": true,
+      "lastAlertSentAt": null,
+      "createdAt": "2026-10-28T09:37:33.199Z",
+      "updatedAt": "2026-10-28T09:37:33.199Z"
+    }
+  ],
+  "pizzas": [
+    {
+      "_id": "pza_1793180253200_wtze7",
+      "id": "pza_1793180253200_wtze7",
+      "name": "Artisanal Margherita Supreme",
+      "description": "San Marzano D.O.P. tomatoes, hand-torn fior di latte mozzarella, fragrant Genovese basil, cold-pressed olive oil.",
+      "category": "classic",
+      "basePrice": 449,
+      "image": "/src/assets/images/pizza_margherita_classic_1792929165993.jpg",
+      "defaultIngredients": {
+        "baseName": "Neapolitan Hand-Tossed",
+        "sauceName": "San Marzano Tomato",
+        "cheeseName": "Fior di Latte Mozzarella",
+        "veggieNames": [
+          "Fresh Genovese Basil"
+        ]
+      },
+      "isAvailable": true,
+      "createdAt": "2026-10-28T09:37:33.200Z",
+      "updatedAt": "2026-10-28T09:37:33.200Z"
+    },
+    {
+      "_id": "pza_1793180253201_thbfw",
+      "id": "pza_1793180253201_thbfw",
+      "name": "Crispy Pepperoni Rustica",
+      "description": "Cupped beef & herb pepperoni, spicy arrabbiata tomato reduction, bubbling mozzarella, oregano drizzle.",
+      "category": "specialty",
+      "basePrice": 549,
+      "image": "/src/assets/images/pizza_pepperoni_crisp_1792929166080.jpg",
+      "defaultIngredients": {
+        "baseName": "Thin Crust Sourdough",
+        "sauceName": "Spicy Arrabbiata",
+        "cheeseName": "Fior di Latte Mozzarella",
+        "veggieNames": []
+      },
+      "isAvailable": true,
+      "createdAt": "2026-10-28T09:37:33.201Z",
+      "updatedAt": "2026-10-28T09:37:33.201Z"
+    },
+    {
+      "_id": "pza_1793180253201_otmvk",
+      "id": "pza_1793180253201_otmvk",
+      "name": "Truffle Wild Forest Mushroom",
+      "description": "Wild porcini & cremini mushrooms, slow-simmered garlic alfredo, aged fontina and parmigiano, black truffle essence.",
+      "category": "gourmet",
+      "basePrice": 599,
+      "image": "/src/assets/images/pizza_truffle_mushroom_1792929166677.jpg",
+      "defaultIngredients": {
+        "baseName": "Thin Crust Sourdough",
+        "sauceName": "Creamy Garlic Alfredo",
+        "cheeseName": "Smoked Provolone",
+        "veggieNames": [
+          "Wild Porcini Mushrooms",
+          "Confit Garlic Cloves"
+        ]
+      },
+      "isAvailable": true,
+      "createdAt": "2026-10-28T09:37:33.201Z",
+      "updatedAt": "2026-10-28T09:37:33.201Z"
+    },
+    {
+      "_id": "pza_1793180253201_it1g8",
+      "id": "pza_1793180253201_it1g8",
+      "name": "Mediterranean Garden Harvest",
+      "description": "Fire-roasted bell peppers, Kalamata olives, blistered cherry tomatoes, sweet caramelized onions, fresh basil.",
+      "category": "vegetarian",
+      "basePrice": 499,
+      "image": "/src/assets/images/pizza_garden_veggie_1792929167560.jpg",
+      "defaultIngredients": {
+        "baseName": "Neapolitan Hand-Tossed",
+        "sauceName": "San Marzano Tomato",
+        "cheeseName": "Fior di Latte Mozzarella",
+        "veggieNames": [
+          "Charred Bell Peppers",
+          "Kalamata Black Olives",
+          "Sun-Ripened Cherry Tomatoes",
+          "Caramelized Sweet Onions"
+        ]
+      },
+      "isAvailable": true,
+      "createdAt": "2026-10-28T09:37:33.201Z",
+      "updatedAt": "2026-10-28T09:37:33.201Z"
+    },
+    {
+      "_id": "pza_1793180253201_coxje",
+      "id": "pza_1793180253201_coxje",
+      "name": "Wood-Fired Signature Feast",
+      "description": "Double cheese blend with smoked provolone, roasted garlic confit, spicy arrabbiata, and blistered sourdough crust.",
+      "category": "specialty",
+      "basePrice": 649,
+      "image": "/src/assets/images/hero_artisanal_pizza_1792929166001.jpg",
+      "defaultIngredients": {
+        "baseName": "Thin Crust Sourdough",
+        "sauceName": "Spicy Arrabbiata",
+        "cheeseName": "Smoked Provolone",
+        "veggieNames": [
+          "Fresh Genovese Basil",
+          "Confit Garlic Cloves",
+          "Charred Bell Peppers"
+        ]
+      },
+      "isAvailable": true,
+      "createdAt": "2026-10-28T09:37:33.201Z",
+      "updatedAt": "2026-10-28T09:37:33.201Z"
+    }
+  ],
+  "orders": [
+    {
+      "_id": "ord_1793183863331_d7ouw",
+      "id": "ord_1793183863331_d7ouw",
+      "orderNumber": "CRUST-863330",
+      "userId": "usr_1793182262787_zt3in",
+      "customerDetails": {
+        "name": "Harsh Chotaliya",
+        "email": "chotaliyaharshstudy@gmail.com",
+        "phone": "9876543210",
+        "address": "142 Olive Grove, Indiranagar",
+        "city": "Bangalore",
+        "postalCode": "560038",
+        "notes": ""
+      },
+      "items": [
+        {
+          "name": "Wood-Fired Margherita",
+          "isCustom": false,
+          "quantity": 1,
+          "unitPrice": 449,
+          "ingredientsSnapshot": {
+            "base": {
+              "id": "ing_1793180253194_870sr",
+              "name": "Thin Crust Sourdough",
+              "price": 140
+            },
+            "sauce": {
+              "id": "ing_1793180253195_i414c",
+              "name": "San Marzano Tomato",
+              "price": 60
+            },
+            "cheese": {
+              "id": "ing_1793180253196_23e9j",
+              "name": "Fior di Latte Mozzarella",
+              "price": 90
+            },
+            "veggies": []
+          }
+        }
+      ],
+      "subtotal": 449,
+      "tax": 22,
+      "deliveryFee": 49,
+      "totalAmount": 520,
+      "paymentStatus": "paid",
+      "paymentDetails": {},
+      "orderStatus": "In Kitchen",
+      "statusHistory": [
+        {
+          "status": "Order Received",
+          "timestamp": "2026-10-28T10:37:43.331Z",
+          "note": "Order placed with Cash on Delivery (COD). Total ₹520 payable at doorstep."
+        },
+        {
+          "status": "In Kitchen",
+          "timestamp": "2026-10-28T10:37:52.030Z",
+          "note": "Wood-fired oven preheated to 900F, pizza stretching started"
+        },
+        {
+          "status": "In Kitchen",
+          "timestamp": "2026-10-28T10:37:57.018Z",
+          "note": "Payment verified & collected (Doorstep/Cash/UPI) by Head Chef & Admin"
+        }
+      ],
+      "stockDeducted": true,
+      "createdAt": "2026-10-28T10:37:43.331Z",
+      "updatedAt": "2026-10-28T10:37:57.018Z"
+    }
+  ],
+  "emailLogs": [
+    {
+      "id": "mail_1793183863332_t0z7",
+      "to": "chotaliyaharshstudy@gmail.com",
+      "subject": "Cash on Delivery Order Placed #CRUST-863330 - Artisan Crust",
+      "type": "order_confirmation",
+      "content": "\n          <div style=\"font-family: sans-serif; max-width: 600px; padding: 24px; border: 1px solid #EFEAE4; background: #FAF7F2; border-radius: 8px;\">\n            <h2 style=\"color: #E23722;\">Cash on Delivery Order Confirmed!</h2>\n            <p>Thank you, <strong>Harsh Chotaliya</strong>!</p>\n            <p>Order Number: <strong>CRUST-863330</strong></p>\n            <p>Amount to Pay at Door: <strong>₹520</strong> (Cash or UPI)</p>\n            <p>Status: <strong>Order Received</strong> (Our pizzaiolos are preparing your fresh dough!)</p>\n          </div>\n        ",
+      "sentAt": "2026-10-28T10:37:43.332Z",
+      "status": "simulated"
+    },
+    {
+      "id": "mail_1793181600005_duqk",
+      "to": "admin@artisancrust.com",
+      "subject": "[ALERT] Low Stock Warning: 3 ingredients need restocking",
+      "type": "low_stock",
+      "content": "\n    <div style=\"font-family: sans-serif; max-width: 650px; margin: 0 auto; padding: 24px; border: 1px solid #EFEAE4; border-radius: 8px; background-color: #FAF7F2; color: #242424;\">\n      <h1 style=\"color: #E23722; font-size: 22px; margin-bottom: 12px;\">⚠️ Low Stock Inventory Alert</h1>\n      <p style=\"font-size: 15px; color: #4A4A4A; margin-bottom: 20px;\">\n        The automated scheduled inventory monitor has detected <strong>3</strong> ingredient(s) at or below their low-stock thresholds.\n      </p>\n      <table style=\"width: 100%; border-collapse: collapse; text-align: left; font-size: 14px; background: #FFFFFF; border-radius: 6px; overflow: hidden; border: 1px solid #EFEAE4;\">\n        <thead>\n          <tr style=\"background: #F4EFEB; border-bottom: 2px solid #E23722;\">\n            <th style=\"padding: 10px;\">Ingredient</th>\n            <th style=\"padding: 10px;\">Category</th>\n            <th style=\"padding: 10px;\">Current Stock</th>\n            <th style=\"padding: 10px;\">Alert Threshold</th>\n          </tr>\n        </thead>\n        <tbody>\n          \n    <tr style=\"border-bottom: 1px solid #EFEAE4;\">\n      <td style=\"padding: 10px; font-weight: 600;\">Stuffed Garlic Herb Crust</td>\n      <td style=\"padding: 10px; text-transform: capitalize;\">base</td>\n      <td style=\"padding: 10px; color: #E23722; font-weight: bold;\">6</td>\n      <td style=\"padding: 10px;\">10</td>\n    </tr>\n  \n    <tr style=\"border-bottom: 1px solid #EFEAE4;\">\n      <td style=\"padding: 10px; font-weight: 600;\">Smoky BBQ Marinara</td>\n      <td style=\"padding: 10px; text-transform: capitalize;\">sauce</td>\n      <td style=\"padding: 10px; color: #E23722; font-weight: bold;\">7</td>\n      <td style=\"padding: 10px;\">10</td>\n    </tr>\n  \n    <tr style=\"border-bottom: 1px solid #EFEAE4;\">\n      <td style=\"padding: 10px; font-weight: 600;\">Vegan Cashew Cheese</td>\n      <td style=\"padding: 10px; text-transform: capitalize;\">cheese</td>\n      <td style=\"padding: 10px; color: #E23722; font-weight: bold;\">8</td>\n      <td style=\"padding: 10px;\">10</td>\n    </tr>\n  \n        </tbody>\n      </table>\n      <p style=\"font-size: 13px; color: #767676; margin-top: 24px;\">\n        Please log into the Admin Dashboard to restock these items to prevent checkout interruptions.\n      </p>\n    </div>\n  ",
+      "sentAt": "2026-10-28T10:00:00.005Z",
+      "status": "simulated"
+    }
+  ]
+}
